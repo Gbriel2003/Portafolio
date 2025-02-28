@@ -2,15 +2,21 @@ body {
     font-family: "Montserrat Alternates", serif;
     margin: 0%;
     padding: 0%;
-    background-color: #C8F0DC;
+    background-color: #f4fdfd;
 }
 
 header {
     display: flex;
-    height: 70px;
+    background-color: #f4fdfd;
     justify-content: space-between;
     align-items: center;
+    color: #1d3f40;
     padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 .logo {
@@ -23,9 +29,10 @@ header {
     margin-right: 1px;
 }
 
+
 a {
     text-decoration: none;
-    color: black;
+    color: #1d3f40;
 }
 
 nav a {
@@ -36,4 +43,30 @@ nav a {
 li {
     list-style: none;
     display: inline;
+}
+
+.CentrarSeccion div {
+    background-image: url(assets/image/seccion.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 5px;
+}
+
+.CentrarSeccion h1 {
+    color: #1d3f40;
+    font-size: 50px;
+    text-align: center;
+}
+
+.CentrarSeccion p {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    color: #1d3f40;
+    font-size: 20px;
 }
