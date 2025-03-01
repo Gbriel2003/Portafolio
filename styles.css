@@ -35,9 +35,16 @@ a {
     color: #1d3f40;
 }
 
+a:hover {
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    font-size: 110%;
+    color: #000000;
+}
+
 nav a {
     font-weight: 600;
-    padding-right: 10px;
+    padding: 10px;
 }
 
 li {
@@ -46,7 +53,7 @@ li {
 }
 
 .CentrarSeccion div {
-    background-image: url(assets/image/seccion.jpg);
+    background-image: url(assets/image/seccion11.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -66,7 +73,23 @@ li {
 .CentrarSeccion p {
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
     text-align: center;
     color: #1d3f40;
     font-size: 20px;
+}
+
+button {
+    align-items: center;
+    background-color: #1d3f40;
+    color: #f4fdfd;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    font-size: 130%;
 }
