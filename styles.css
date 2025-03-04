@@ -3,6 +3,7 @@ body {
     margin: 0%;
     padding: 0%;
     background-color: #f4fdfd;
+    padding-top: 100px;
 }
 
 header {
@@ -17,6 +18,7 @@ header {
     left: 0;
     right: 0;
     top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -30,24 +32,23 @@ header {
 }
 
 
-a {
+header a {
     text-decoration: none;
     color: #1d3f40;
 }
 
-a:hover {
+header a:hover {
     background-color: #dfdfdf;
     border-radius: 20px;
-    font-size: 110%;
     color: #000000;
 }
 
-nav a {
+header nav a {
     font-weight: 600;
     padding: 10px;
 }
 
-li {
+header li {
     list-style: none;
     display: inline;
 }
@@ -64,7 +65,7 @@ li {
     padding: 5px;
 }
 
-.CentrarSeccion h1 {
+.CentrarSeccion h2 {
     color: #1d3f40;
     font-size: 50px;
     text-align: center;
@@ -91,5 +92,152 @@ button {
 }
 
 button:hover {
-    font-size: 130%;
+    transform: scale(1.1);
+}
+
+
+.CentrarDestinos {
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.CentrarDestinos h2 {
+    color: #1d3f40;
+    font-size: 40px;
+    text-align: center;
+}
+
+.galeria-container {
+    display: flex;
+    justify-content: center;
+    grid-gap: 40px;
+}
+
+.galeria {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 lightblue;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+}
+
+.galeria:hover {
+    transform: scale(1.1);
+}
+
+.pie {
+    color: #1d3f40;
+    text-align: center;
+    padding: 10px;
+}
+
+.Contenedor-Nosotros {
+    display: flex;
+    padding: 50px;
+}
+
+.Contenedor-Nosotros h2 {
+    color: #1d3f40;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Contenedor-Nosotros h3 {
+    color: #1d3f40;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Contenedor-Nosotros ol {
+    color: #1d3f40;
+    margin-left: 250px;
+}
+
+.Contenedor-Nosotros p {
+    color: #1d3f40;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.imagen-ejemplo {
+    margin-left: 50px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: #1d3f40;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 50px;
+    flex-wrap: wrap;
+}
+
+.icono-elemento {
+    list-style: none;
+}
+
+.icon {
+    color: #ffffff;
+    font-size: 32px;
+    display: inline-block;
+    margin: 5px 20px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: translateY(-10px);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+}
+
+.menu-elemento {
+    list-style: none;
+}
+
+.menu-icon {
+    color: #ffffff;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.menu-icon:hover {
+    opacity: 1;
+}
+
+.texto {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
