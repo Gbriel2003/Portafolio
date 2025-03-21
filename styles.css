@@ -246,7 +246,7 @@ button:hover {
     max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -259,9 +259,10 @@ button:hover {
 
 #comentarios h2 {
     text-align: center;
-    color: #333;
+    color: #1d3f40;
     display: inline-block;
     margin-right: 10px;
+    font-size: 30px;
 }
 
 .comentarios-header {
@@ -269,8 +270,8 @@ button:hover {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
+    background-color: #ffffff;
+    padding: 5px;
     border-radius: 8px;
 
 }
@@ -362,7 +363,7 @@ button:hover {
 .comentario i.fa-user {
     font-size: 24px;
     margin-right: 10px;
-    color: #007BFF;
+    color: #1d3f40;
 }
 
 .comentario-texto {

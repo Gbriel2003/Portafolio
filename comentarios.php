@@ -13,8 +13,9 @@
 <body>
     <section id="comentarios">
         <div class="comentarios-header">
-            <h2>Comentarios</h2>
-                    </div>
+            <h2>Muñoz Travel</h2>
+            <h2>Comentarios:</h2>
+        </div>
         <div class="comentarios-container">
             <?php
             if ($_SERVER['REQUEST_METHOD'] == 'POST') {
