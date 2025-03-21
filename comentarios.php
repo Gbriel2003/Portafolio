@@ -93,6 +93,9 @@
                 ?>
             </div>
         </div>
+        <div class="volver-index">
+            <a href="index.html" class="btn-volver">Volver al Inicio</a>
+        </div>
     </section>
 </body>
 </html>
